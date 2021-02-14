@@ -104,24 +104,36 @@ button:disabled {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
+    background: url('/img/background2.jpg'); 
+    background-size: cover;
+    background-position: center;
 }
 
 .chat__messages {
     flex-grow: 1;
     padding: 24px 24px 0 24px;
     overflow-y: scroll;
+    
+    
+    
+    
 }
 
 /* Message Styles */
 
 .message {
-    margin-bottom: 16px;   
+    margin-bottom: 16px;
+        
+    
+       
 }
 
 .message__name {
     font-weight: 600;
     font-size: 14px;
     margin-right: 8px;
+    color:black;
+    
 }
 
 .message__meta {
